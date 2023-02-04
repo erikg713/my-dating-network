@@ -1,5 +1,6 @@
 <script src="https://sdk.minepi.com/pi-sdk.js"></script>
-<script> Pi.init({ version: "2.0", sandbox: true }) </script>
-<script>
- Pi.init({ version: "2.0", sandbox: <%= process.env.NODE_ENV !== 'development' %> })  
-</script>
+<script>Pi.init({ version: "2.0", sandbox: true })</script>
+process.env.NODE_ENV !== 'development' %> }).
+
+Pi.authenticate(scopes: Array<Scope>, onIncompletePaymentFound: Function<PaymentDTO>): Promise<AuthResult>
+
