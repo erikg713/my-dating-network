@@ -9,14 +9,14 @@ import stellar_sdk as s_sdk
 
 class PiNetwork:    
      
-    api_key = ""
+    api_key = "cia8pwvitnbadvedsicpzi4c772obbaonb3b8zo8fx5qedgvitva7ytfifhfkob9"
     client = ""
     account = ""
-    base_url = ""
+    base_url = "https://sandbox.minepi.com/app/my-dating-network-app"
     from_address = ""
     open_payments = {}
     network = ""
-    server = ""
+    server = "https://sandbox.minepi.com/app/my-dating-network-app"
     keypair = ""
 
     def initialize(self, api_key, wallet_private_key, network):
